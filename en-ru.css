@@ -838,8 +838,9 @@
   
   /* tags small */
   .tags.small {
-    font-size: 0.88em;
+    font-size: 0.98em;
     width: 300px;
+    color: black;
   }
   .tags.bulleted .tag:not(:last-child):after {
     content: "●";
@@ -858,20 +859,20 @@
   section.lang::after{
     content: "";
     background-color: #000000;
-    width: 52px;
+    width: 142px;
     position: absolute;
-    height: 20px;
+    height: 32px;
     left: -2px;
-    top: 14px;
+    top: 15px;
     right: 240px;
     z-index: -1; 
   }
   section.skills::after{
     content: "";
     background-color: #000000;
-    width: 64px;
+    width: 170px;
     position: absolute;
-    height: 18px;
+    height: 36px;
     left: -2px;
     top: 14px;
     right: 240px;
@@ -880,9 +881,9 @@
   section.character::after{
     content: "";
     background-color: #000000;
-    width: 72px;
+    width: 242px;
     position: absolute;
-    height: 18px;
+    height: 38px;
     left: -2px;
     top: 14px;
     right: 240px;
@@ -891,9 +892,9 @@
   section.likes::after{
     content: "";
     background-color: #000000;
-    width: 56px;
+    width: 152px;
     position: absolute;
-    height: 18px;
+    height: 38px;
     left: -2px;
     top: 14px;
     right: 240px;
@@ -902,9 +903,9 @@
   section.dislikes::after{
     content: "";
     background-color: #000000;
-    width: 92px;
+    width: 222px;
     position: absolute;
-    height: 18px;
+    height: 38px;
     left: -2px;
     top: 15px;
     right: 240px;
